@@ -12,8 +12,8 @@ User can filter news using option provided in navbar based on news category such
   Technologies used:
 </h3>
   <ol>
-    <li>Vite(tool)</li>
-    <li>React(library)</li>
-    <li>Tailwind css(framework</li>
+    <li>Vite(tool).</li>
+    <li>React(library).</li>
+    <li>Tailwind css(framework).</li>
   </ol>
 
