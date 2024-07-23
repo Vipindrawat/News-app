@@ -11,8 +11,6 @@ const News = (props) => {
     const [page, setPage] = useState(1);
     const [totalresults, setTotalresults] = useState(0);
 
-
-
     const datafetch = async () => {
         props.updateprogress(10);
         setReloading(true);
@@ -56,7 +54,6 @@ const News = (props) => {
                 dataLength={articles.length}
                 next={fetchMoreData}
                 hasMore={articles.length != totalresults}
-                loader={<Spinner />}
             >
                 <div className="grid grid-cols-1 place-items-center gap-5 sm:grid-cols-2 xl:grid-cols-3 xl:gap-x-10 xl:gap-y-7 2xl:grid-cols-4">
                     {!reloading && articles.map((element) => {
